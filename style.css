@@ -12,7 +12,13 @@ tbody tr td:nth-child(4) {
 	color: blue;
 }
 
-tbody tr:nth-child(2n) {
+tbody tr:nth-child(2n-1) {
 
 	background-color: lightgreen;
+}
+
+
+tbody tr:nth-child(2n) {
+
+	background-color: lightblue;
 }
