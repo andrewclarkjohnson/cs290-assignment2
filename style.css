@@ -27,6 +27,24 @@ tbody tr:nth-child(2n) {
 
 
 /* dl list styling */
-dl dt:hover {
+dl dt:hover + dd {
 	background-color: purple;
+}
+
+
+/* div styling */
+.outer-content {
+	width: 75%;
+	background-color: pink;
+	margin: 20px;
+	float: left;
+}
+
+
+.inner-content {
+	background-color: blue;
+	width:75%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
