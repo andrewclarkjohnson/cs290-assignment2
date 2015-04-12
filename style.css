@@ -48,3 +48,14 @@ dl dt:hover + dd {
 	margin-right: auto;
 	text-align: center;
 }
+
+
+
+/* paragraph / image portion styling */
+img {
+	float:left;
+}
+
+p {
+	clear:both;
+}
